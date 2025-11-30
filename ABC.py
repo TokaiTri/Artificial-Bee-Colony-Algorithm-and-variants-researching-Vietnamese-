@@ -1,5 +1,3 @@
-Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
 import random
 import numpy as np
 
@@ -92,4 +90,5 @@ overall_best_solution = food_sources[overall_best_index]
 
 print("--- Kết quả tối ưu hóa ---")
 print(f"Độ thích nghi tốt nhất: {overall_best_fitness}")
+
 print(f"Giải pháp tốt nhất: {overall_best_solution}")
